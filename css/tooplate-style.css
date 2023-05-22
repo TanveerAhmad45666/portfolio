@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   color: #212121;
-  font-size: 2.8em;
+  font-size: 2em;
   margin: 24px 0;
 }
 
@@ -120,13 +120,13 @@ b, strong {
 }
 
 .animated-item {
-  font-size: 38px;
+  font-size: 40px;
   line-height: inherit;
   display: block;
   opacity: 0;
   overflow: hidden;
   position: absolute;
-  top: 0;
+  top: -10px;
   right: 0;
   left: 0;
   animation: BottomTotop 6s linear infinite 0s;
@@ -726,9 +726,16 @@ box-shadow: 0px 0px 38px -8px rgba(0,0,0,0.34);
 .container-fluid .col-md-12 {
   padding: 0px;
 }
+.about-us{
+  margin: 100px 0px;
+}
 
-
-
+.resume-pg .btn-ever a {
+  display: unset;
+}
+.resume-pg {
+  text-align: center;
+}
 
 
 
